@@ -54,15 +54,16 @@
    cd TravelAIagents
 
 2. **Install dependencies**:
-  ```bash
-   pip install -r requirements.txt
-3. **Set up .env file** :
-  Create a .env file in the root directory with your API keys:
-    GEMINI_API_KEY=your_gemini_api_key
-    WEATHER_API_KEY=your_google_weather_api_key
-    HOTELS_API_KEY=your_rapidapi_hotels_api_key
+   ``` bash
+   pip install reqirements.txt
+
+3. **seting Up dotenv file**:
+    ```bash
+    GEMINI_API_KEY=your_gemini_api_key  
+    WEATHER_API_KEY=your_google_weather_api_key  
+    HOTELS_API_KEY=your_rapidapi_hotels_api_key  
     IRCTC_API_KEY=your_rapidapi_irctc_api_key
-4. **Run the app** :
-   ```bash
+
+4. **Run your app now**:
+  ```bash
     streamlit run app.py
- 
